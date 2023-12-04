@@ -1,0 +1,15 @@
+{
+    "name": "solene/require-lib-xcomposer",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Esoriak",
+            "email": "somahaut.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
