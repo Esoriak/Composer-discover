@@ -1,12 +1,9 @@
 <?php
-require __DIR__ . '/Cow.php';
+require 'vendor/autoload.php';
 
+use CowSay\Cow;
 
-$bessie = new Cow('Hello, Farm!');
+$bessie = new Cow('Mameuhmiah!');
+$bessie->setTongue('U');
 
-// store the output in a variable
-$output = $bessie->say();
-echo $output;
-
-// or just echo the object for direct output
-// echo $bessie;
+echo $bessie;
